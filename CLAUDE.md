@@ -37,14 +37,15 @@ ecosystems and try to make their rival's ecosystems Collapse. The full game desi
 
 ## Testing
 
-Run these after every change (Godot 4.4+ on PATH as `godot`):
+Run these after every change. Godot 4.7.2 is installed at `D:/GODOT/Godot_v4.7.2/Godot_v4.7.2-stable_win64_console.exe`
+(it is not on PATH; keep `Godot_v4.7.2-stable_win64.exe` in the same folder, the console exe needs it):
 
 ```
-godot --headless --path . --import
-godot --headless --path . --script res://tests/sim.gd        # 200 AI-vs-AI matches, must print errors: 0
-godot --headless --path . --script res://tests/rules_test.gd # focused rule checks, must print 0 failed
-godot --headless --path . --script res://tests/ui_smoke.gd   # plays a match through the UI
-godot --headless --path . --script res://tests/menu_smoke.gd # menu + collection flow
+D:/GODOT/Godot_v4.7.2/Godot_v4.7.2-stable_win64_console.exe --headless --path . --import
+D:/GODOT/Godot_v4.7.2/Godot_v4.7.2-stable_win64_console.exe --headless --path . --script res://tests/sim.gd        # 200 AI-vs-AI matches, must print errors: 0
+D:/GODOT/Godot_v4.7.2/Godot_v4.7.2-stable_win64_console.exe --headless --path . --script res://tests/rules_test.gd # focused rule checks, must print 0 failed
+D:/GODOT/Godot_v4.7.2/Godot_v4.7.2-stable_win64_console.exe --headless --path . --script res://tests/ui_smoke.gd   # plays a match through the UI
+D:/GODOT/Godot_v4.7.2/Godot_v4.7.2-stable_win64_console.exe --headless --path . --script res://tests/menu_smoke.gd # menu + collection flow
 ```
 
 ## Status
